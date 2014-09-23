@@ -1,0 +1,14 @@
+
+
+ const char *gltypes_typeName(GLenum type)
+   Converts GL_FLOAT -> "GL_FLOAT"
+
+ GLenum gltypes_typeBase(GLenum type)
+   Converts GL_FLOAT_MAT4x3 to GL_FLOAT
+
+ int gltypes_typeElements(GLenum type)
+   Converts GL_FLOAT_MAT4x3 to 4*3 (=12)
+   
+ int gltypes_sizeof(GLenum type)
+   Gives the bytes that type needs
+
